@@ -1,0 +1,21 @@
+<html>
+<body>
+
+<script>
+    time = new Date();
+    hours = time.getHours();
+    mins = time.getMinutes();
+    sec = time.getSeconds();
+   if(mins<10){
+mins="0"+mins;
+} 
+if(sec<10){
+sec="0"+sec;
+}
+
+ document.write("<h2><b>"+"Current time is:"+""+hours+":"+mins+":"+sec+"</b></h2>");
+</script>
+</body>
+</html>
+
+
